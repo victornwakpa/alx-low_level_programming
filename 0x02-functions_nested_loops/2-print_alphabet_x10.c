@@ -3,7 +3,6 @@
 
 /**
  * print_alphabet_x10 - main function of this program
- * Description: This program will display the alphabet x10
  */
 
 void print_alphabet_x10(void)
