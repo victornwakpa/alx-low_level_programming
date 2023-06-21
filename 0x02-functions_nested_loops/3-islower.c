@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * _islower - The main function for this program
- * Description: This program checks if a letter is lowercase or not
- * return: 1 if lowercase and 0 if otherwise
+ * _islower - Check function
+ * Description: This program _islower checks if a letter is lowercase or not
+ * @c: letter to be checked
+ * Return: 1 if lowercase and 0 if otherwise
  */
 
 int _islower(int c)
