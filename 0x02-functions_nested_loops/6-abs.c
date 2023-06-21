@@ -1,14 +1,17 @@
 #include <stdio.h>
-#include "main.h"
-/**
- * _abs - main function
- * Return: -num, num
- */
+#include <stdlib.h>
 
-int _abs(int num) {
-    if (num < 0) {
-        return -num;
-    } else {
-        return num;
-    }
+/**
+ * _abs - Gets absolute value of a number
+ * @n: The number to be used
+ * Description: The function takes a number as a parameter
+ * and returns its absolute value
+ * Return: the absolut value
+ */
+int _abs(int n)
+{
+	int r;
+
+	r = abs(n);
+	return (r);
 }
