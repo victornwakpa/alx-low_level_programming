@@ -2,8 +2,6 @@
 #include "main.h"
 /**
  * print_numbers - function for the program
- * Description: This is a loop program
- * Return: some value
  */
 void print_numbers(void)
 {
