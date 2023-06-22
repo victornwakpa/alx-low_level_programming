@@ -3,7 +3,7 @@
 /**
  * _isdigit - the main function for this program
  * Description: A function that checks if c is a digit
- * @c: The subbject
+ * @c: The subject
  * Return: This returns 1 if c is a digit and 0 if otherwise
  */
 
