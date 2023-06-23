@@ -1,3 +1,4 @@
+#include <ctype.h>
 #include "main.h"
 /**
  * _isupper - the ain function for this program
