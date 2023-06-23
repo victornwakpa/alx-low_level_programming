@@ -1,10 +1,27 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - check the code
  *
  * Return: Always 0.
  */
+void print_line(int n)
+{
+	if (n <= 0)
+	{
+		putchar('\n');
+	}
+	int i = 0;
+
+	while (i < n)
+	{
+		putchar('_');
+		i++;
+	}
+	putchar('\n');
+}
+
 int main(void)
 {
     print_line(0);
