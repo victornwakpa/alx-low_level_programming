@@ -2,18 +2,18 @@
 /**
  * print_line - function of this program
  * Description: A function that prints a straight line
- * @line: the return value
+ * @n: the return value
  */
 
-void print_line(int line)
+void print_line(int n)
 {
-	if (line <= 0)
+	if (n <= 0)
 	{
 		_putchar('\n');
 	}
 	int i = 0;
 
-	while (i < line)
+	while (i < n)
 	{
 		_putchar('_');
 		i++;
