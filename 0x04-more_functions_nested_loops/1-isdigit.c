@@ -1,19 +1,19 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _isdigit - the main function for this program
- * @c: hello
- * Description: A function that checks if c is a digit
- * Return: This returns 1 if c is a digit and 0 if otherwise
+ * _isdigit - Checks if a character is a number
+ * @c: The character to be checked
+ * Return: returns 1 if the character is a digit, otherwise 0
  */
 int _isdigit(int c)
 {
 	if (c >= '0' && c <= '0')
 	{
-		return (1);
+		result = 1;
 	}
 	else
 	{
-		return (0);
+		result = 0;
 	}
+	return (result);
 }
