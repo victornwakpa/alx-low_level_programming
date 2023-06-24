@@ -2,14 +2,8 @@
 
 /**
  * main - Entry point
- *
  * Description: Prints the numbers from 1 to 100 according
  * to the FizzBuzz rules
- * Each number or word is separated by a space
- * Multiples of three are replaced with "Fizz"
- * Multiples of five are replaced with "Buzz"
- * Multiples of both three and five are replaced with "FizzBuzz"
- *
  * Return: 0 (Success)
  */
 int main(void)
