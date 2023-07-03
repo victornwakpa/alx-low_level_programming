@@ -1,12 +1,10 @@
 #include <stdio.h>
 #include "main.h"
-
 /**
- * _puts - the function for this program
- * @str: the parameter
+ * _puts - prints out the value of a variable
+ * @s: the variable passed
  */
-
-void _puts(char *str)
+void _puts(char *s)
 {
-	printf("%s\n", str);
+	puts(s);
 }
